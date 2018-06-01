@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="SRX-Strategy" transaction-type="JTA">
+		<jta-data-source>jdbc/Strategy</jta-data-source>
+		<class>com.srx.model.entities.Analysis</class>
+		<class>com.srx.model.entities.AnalysisDetail</class>
+		<class>com.srx.model.entities.Branch</class>
+		<class>com.srx.model.entities.BusinessCanvas</class>
+		<class>com.srx.model.entities.BusinessPlan</class>
+		<class>com.srx.model.entities.BusinessUnit</class>
+		<class>com.srx.model.entities.Company</class>
+		<class>com.srx.model.entities.Contact</class>
+		<class>com.srx.model.entities.Country</class>
+		<class>com.srx.model.entities.Division</class>
+		<class>com.srx.model.entities.Employee</class>
+		<class>com.srx.model.entities.Event</class>
+		<class>com.srx.model.entities.Factor</class>
+		<class>com.srx.model.entities.File</class>
+		<class>com.srx.model.entities.Frequency</class>
+		<class>com.srx.model.entities.Initiative</class>
+		<class>com.srx.model.entities.InitiativeScore</class>
+		<class>com.srx.model.entities.InitiativeTeam</class>
+		<class>com.srx.model.entities.Issue</class>
+		<class>com.srx.model.entities.Job</class>
+		<class>com.srx.model.entities.Measure</class>
+		<class>com.srx.model.entities.MeasureInitiative</class>
+		<class>com.srx.model.entities.MeasureScore</class>
+		<class>com.srx.model.entities.MeasureTeam</class>
+		<class>com.srx.model.entities.Milestone</class>
+		<class>com.srx.model.entities.MilestoneTeam</class>
+		<class>com.srx.model.entities.Note</class>
+		<class>com.srx.model.entities.Objective</class>
+		<class>com.srx.model.entities.ObjectiveScore</class>
+		<class>com.srx.model.entities.ObjectiveTeam</class>
+		<class>com.srx.model.entities.Organization</class>
+		<class>com.srx.model.entities.Perspective</class>
+		<class>com.srx.model.entities.Scorecard</class>
+		<class>com.srx.model.entities.State</class>
+		<class>com.srx.model.entities.Tool</class>
+	</persistence-unit>
+</persistence>
